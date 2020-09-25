@@ -1,31 +1,43 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import img_kimchi from './images/kimchi.jpg';
+import img_pizza from './images/pizza.jpg';
+import img_chicken from './images/chicken.jpg';
 
-function Food(props) {
+function Food({name, picture, alt}) {
   return (
-    <h3>I Love {props.fav.image}</h3>
+    <div>
+      <h2>I Love {name}</h2>
+      <img src={picture} alt={alt} />
+    </div>
   );
 }
 
-const foodLike = [
+const foodILike = [
   {
+    id: 1,
     name: 'Kimchi',
-    image: '/public/logo512.png'
+    image: img_kimchi,
+    alt: '김치 사진'
   },
   {
+    id: 2,
     name: 'Pizza',
-    image: '/public/logo512.png'
+    image: img_pizza,
+    alt: '피자 사진'
   },
   {
-    name: 'Chiken',
-    image: '/public/logo512.png'
+    id: 3,
+    name: 'Chicken',
+    image: img_chicken,
+    alt: '치킨 사진'
   }
 ];
 
 function App() {
   return (
     <div>
-      <h1>hello world!</h1>
-      <Food fav={foodLike}/>
+      {foodILike.map(dish => <Food alt={dish.alt} key={dish.id} name={dish.name} picture={dish.image} />)}
     </div>
   );
 }
