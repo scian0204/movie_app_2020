@@ -1,45 +1,21 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import img_kimchi from './images/kimchi.jpg';
-import img_pizza from './images/pizza.jpg';
-import img_chicken from './images/chicken.jpg';
 
-function Food({name, picture, alt}) {
-  return (
-    <div>
-      <h2>I Love {name}</h2>
-      <img src={picture} alt={alt} />
-    </div>
-  );
-}
+class App extends React.Component {
+  state = {
+    count: 0,
+  };
 
-const foodILike = [
-  {
-    id: 1,
-    name: 'Kimchi',
-    image: img_kimchi,
-    alt: '김치 사진'
-  },
-  {
-    id: 2,
-    name: 'Pizza',
-    image: img_pizza,
-    alt: '피자 사진'
-  },
-  {
-    id: 3,
-    name: 'Chicken',
-    image: img_chicken,
-    alt: '치킨 사진'
+  setCount = (num) => this.setState(cur => ({count: cur.count + num}));
+
+  render() {
+    return (
+      <div>
+        <h1>The number is {this.state.count}</h1>
+        <button onClick={()=>this.setCount(1)}>Add</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button onClick={()=>this.setCount(-1)}>Minus</button>
+      </div>
+    );
   }
-];
-
-function App() {
-  return (
-    <div>
-      {foodILike.map(dish => <Food alt={dish.alt} key={dish.id} name={dish.name} picture={dish.image} />)}
-    </div>
-  );
 }
 
 export default App;
