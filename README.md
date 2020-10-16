@@ -3,6 +3,13 @@
 
 React Js fundmentals Course 2020
 
+## 10월 16일
+>1. `react`의 `lifeCycle`은 `constructor` -> `render` -> `componentDidMount`순으로 호출된다.
+>2. `componentDidUpdate`는 업데이트 처리가 되면 호출된다.
+>3. `componentWillUnmount`는 컴포넌트가 제거되면 호출된다.
+>4. `axios`는 api 연동을 위한 라이브러리다.
+>5. `axios.get(URL)` 메서드를 통해 api를 가져온다.
+
 ## 10월 7월
 >1. `proptypes`란 타입 정의를 위한 라이브러리다.
 >2. `proptypes`를 사용하려면 설치 및 `import`를 해줘야 한다.
@@ -10,7 +17,7 @@ React Js fundmentals Course 2020
 >4. 컴포넌트를 클래스형태로 사용하려면 `React.Component`를 상속받아야 한다.
 >5. `render()` 메서드를 만들어 `JSX`를 `return`해줘야 한다.
 >6. 컴포넌트 내에서 관리하는 변수를 만드려면 `state = {변수명 : 값}`형태로 객체를 생성한다.
->6. `state`의 사용방법은 `this.state.변수명`이며 값을 바꾸는 방법은 `this.setState(함수)`이다.
+>6. `state`의 사용방법은 `this.state.변수명`이며 값을 바꾸는 방법은 `this.setState({변수명: 바꿀값})`이다.
 
 ## 09월 25일
 >1. 배열의 map함수를 이용하여 데이터 전달.
