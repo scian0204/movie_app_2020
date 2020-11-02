@@ -3,6 +3,14 @@
 
 React Js fundmentals Course 2020
 
+## 10월 30일
+>1. 
+>2. 
+>3. 
+>4. 
+>5. 
+>6. 
+
 ## 10월 16일
 >1. `react`의 `lifeCycle`은 `constructor` -> `render` -> `componentDidMount`순으로 호출된다.
 >2. `componentDidUpdate`는 업데이트 처리가 되면 호출된다.
