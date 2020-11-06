@@ -3,6 +3,11 @@
 
 React Js fundmentals Course 2020
 
+## 11월 6일
+>1. `className`
+>2. `htmlFor`
+>3. `PropTypes.ArrayOf(PropTypes.자료형)`
+
 ## 10월 30일
 >1. 
 >2. 
