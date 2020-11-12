@@ -4,9 +4,9 @@
 React Js fundmentals Course 2020
 
 ## 11월 6일
->1. `className`
->2. `htmlFor`
->3. `PropTypes.ArrayOf(PropTypes.자료형)`
+>1. 키워드가 겹치기 때문에 `JSX` `html`태그 속성중 `class`를 `className`로 바꿔서 쓴다.
+>2. `for`속성도 `htmlFor`로 바꿔서 쓴다.
+>3. `PropTypes`에서 배열을 지정하기 위해서는 `PropTypes.ArrayOf(PropTypes.자료형)`을 쓴다.
 
 ## 10월 30일
 >1. 
