@@ -3,6 +3,9 @@
 
 React Js fundmentals Course 2020
 
+## 11월 13일
+>1. 
+
 ## 11월 6일
 >1. 키워드가 겹치기 때문에 `JSX` `html`태그 속성중 `class`를 `className`로 바꿔서 쓴다.
 >2. `for`속성도 `htmlFor`로 바꿔서 쓴다.
