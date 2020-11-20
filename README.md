@@ -3,6 +3,10 @@
 
 React Js fundmentals Course 2020
 
+## 11월 20일
+>1. Link props
+>2. history redirect
+
 ## 11월 13일
 >1. `Router`란 사용자가 입력한 URL을 통해 특정 컴포넌트를 불러주는 역할을 한다.
 >2. `Router`를 사용하려면 터미널에 `npm install react-router-dom`을 입력하고 `import {HashRouter, Route} from 'react-router-dom'`으로 `import`를 하여 `<HashRouter> <Route path="URL" component={컴포넌트 명} /> </HashRouter>`의 형식으로 사용한다.
