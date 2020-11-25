@@ -43,9 +43,8 @@
 .star {
     z-index: 1;
 }
-.rating {
+.star .rating {
     position: relative;
     z-index: 2;
     left: -93.7px;
-    text-indent:50px;
 }

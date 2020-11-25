@@ -21,8 +21,7 @@ class Detail extends React.Component {
         }
         return (
             <div className='rs'>
-                <span className="star">☆☆☆☆☆</span>
-                <span className="rating">{star}</span>
+                <span className="star">☆☆☆☆☆<span className="rating">{star}</span></span>
             </div>
         );
     }

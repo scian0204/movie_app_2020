@@ -4,8 +4,8 @@
 React Js fundmentals Course 2020
 
 ## 11월 20일
->1. Link props
->2. history redirect
+>1. `Link`태그의 `to`속성에 `{pathname: 'url', state: {prop}}`의 형태로 `props`를 넘겨줄 수 있다.
+>2. `history`키에는`push, go, goBack, goForward`와같은키가있으며, 그 키에는 `URL`을 변경해주는 함수들이 있다.
 
 ## 11월 13일
 >1. `Router`란 사용자가 입력한 URL을 통해 특정 컴포넌트를 불러주는 역할을 한다.
