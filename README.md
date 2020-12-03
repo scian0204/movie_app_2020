@@ -3,6 +3,17 @@
 
 React Js fundmentals Course 2020
 
+## 12월 1일
+>1. `input`태그의 값을 변경할때마다 `handleChange`을 호출시킬 수 있다.
+>2. `form`에서 `submit` 할때 `handleSubmit`을 호출시킬 수 있다.
+>3. `preventDefault()`메서드를 쓰면 `submit`을 할때 세로고침이 안되게 할 수 있다.
+>4. `li`태그의 `key` 속성은 어떤 항목을 변경, 추가 또는 삭제할지 식별하는 것을 도우며, 엘리먼트에 안정적인 고유성을 부여하기 위해 배열 내부의 엘리먼트에 지정해야 한다.
+
+## 11월 27일
+>1. `react`를 `cdn`을 통해 사용하려면 `head`태그에  `<script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>`, `<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>` 을 추가한다.
+>2. `script`태그의 `crossorigin`속성은 `교차 출처 리소스 공유 (CORS)` 설정이다.
+>3. `jsx`를 사용하려면 `<script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>` 을 추가하고 `react`코드를 쓸 `script`태그에 `type="text/babel"`속성을 넣는다.
+
 ## 11월 20일
 >1. `Link`태그의 `to`속성에 `{pathname: 'url', state: {prop}}`의 형태로 `props`를 넘겨줄 수 있다.
 >2. `history`키에는`push, go, goBack, goForward`와같은키가있으며, 그 키에는 `URL`을 변경해주는 함수들이 있다.
